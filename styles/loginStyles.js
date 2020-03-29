@@ -28,17 +28,14 @@ export default StyleSheet.create({
     paddingLeft:20,
     paddingRight:20,
     color: "white",
-    fontFamily: "nexa-bold",
     borderColor:"#D2326E",
     borderRadius:20
   },
   main_heading: {
-    fontFamily: "nexa-bold",
     color: "#D2326E",
     fontSize: 30
   },
   heading_description: {
-    fontFamily: "nexa-bold",
     color: "white",
     marginBottom: 20,
     fontSize: 15,
@@ -46,7 +43,6 @@ export default StyleSheet.create({
   },
 
   text_description: {
-    fontFamily: "nexa-bold",
     color: "white",
     width: 350
   }
