@@ -1,7 +1,8 @@
-import { View, Text, Button } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import HomeScreenTwo from "./screens/test";
+import HomeScreenThree from "./screens/homeScreenThree";
+
 import GetStarted from "./screens/getStarter.js";
 import * as React from "react";
 
@@ -17,7 +18,7 @@ function App() {
       >
         <Stack.Screen name="GetStarted" component={GetStarted} />
         <Stack.Screen name="HomeScreenTwo" component={HomeScreenTwo} />
-
+        <Stack.Screen name="HomeScreenThree" component={HomeScreenThree} />
       </Stack.Navigator>
     </NavigationContainer>
   );
